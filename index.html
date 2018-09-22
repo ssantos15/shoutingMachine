@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Shouting Machine</title>
+  </head>
+  <body>
+    <div class="intro">
+      <h1>Shouting Machine</h1>
+      <p><em>This webpage will ask the user for a sentence and submit it, the computer will return the sentence capitalized.</em></p>
+    </div>
+    <div class= "container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="formOne">
+            <div class="form-group">
+              <label for="sentence">Please type in a sentence below:</label>
+              <input id ="iSentence" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</butoon>
+          </form>
+        </div>
+      </div>
+      <h2>The webppage shouts:</h2>
+      <ul id = "output">
+
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-size: 100%;
+  color:white;
+}
+
+.intro {
+  margin-top:2%;
+  background-size: 100%;
+  margin-bottom:16%;
+  text-align: center;
+}
